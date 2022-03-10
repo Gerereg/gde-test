@@ -1,0 +1,59 @@
+main {
+    display: inline-block;
+    background-color: white;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 5%;
+}
+
+main #about-us {
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.85);
+    overflow: hidden;
+}
+
+ main h1 {
+    font-size: 9vw;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(35, 156, 162);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+main h2 {
+    font-size: 7vw;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+
+main article p {
+    line-height: 140%;
+    font-size: 18px;
+    text-align: justify;
+    color: white;
+}
+
+/** BIGGER SCREEN **/
+@media screen and (min-width: 700px) {
+    
+    main {
+        padding: 5% 7%;
+    }
+    
+    main #about-us {
+        padding: 0 5% 5% 5%;
+    }
+
+    main h1 {
+        font-size: 6vw;
+        margin: 4% 0;
+    }
+
+    main h2 {
+        font-size: 4vw;
+        margin: 4% 0;
+    }
+}
